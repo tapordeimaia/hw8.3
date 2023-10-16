@@ -1,5 +1,3 @@
-public class TwoDimShape extends Shape{
-    public int calculateArea(int i){
-        return 0;
-    }
+public abstract class TwoDimShape extends Shape{
+    public abstract int calculateArea(int i);
 }
